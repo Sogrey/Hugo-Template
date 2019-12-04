@@ -1,0 +1,5 @@
+theme = "hyde"
+baseURL = "https://sogrey.github.io/HugoSite/"
+languageCode = "en-us"
+title = "Sogrey's Hugo Site"
+publishDir = "publish"
