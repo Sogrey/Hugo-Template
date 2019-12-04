@@ -1,0 +1,23 @@
+name = "Sogrey's Hugo Site"
+license = "MIT"
+licenselink = "https://sogrey.github.io/about/mit.html"
+description = "Sogrey's Hugo Site"
+tags = ["blog", "hugo"]
+features = ["blog", "themes", "disqus"]
+min_version = 0.53
+
+disqusShortname = "spf13"
+
+[author]
+    name = "Sogrey"
+    homepage = "https://sogrey.github.io"
+
+# If Porting existing theme
+[original]
+    author =  "mdo"
+    homepage = "http://markdotto.com/"
+    repo = "https://www.github.com/mdo/hyde"
+	
+[params]
+  themeColor = "theme-base-0f"
+  layoutReverse = true
