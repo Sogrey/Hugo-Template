@@ -12,7 +12,7 @@ echo -e '\033[32;40m
  |____/>>   \_)-\___/    \____|    |_| \_\    |_____|      |_|
   )(  (__)       \\\\      _)(|_     //   \\\\_   <<   >>  .-,//|(_
  (__)           (__)    (__)__)   (__)  (__) (__) (__)  \_) (__)  .github.io
- 
+
 '
 echo -e "\033[32;40m [1/3] \033[0m commit 2 master branch"
 echo -e ""
@@ -31,6 +31,7 @@ hugo -t hyde
 echo -e ""
 echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"
 echo -e ""
+
 # 进入生成的文件夹
 cd publish
 
